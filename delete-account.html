@@ -3,64 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delete Your Account</title>
+    <title>Delete Account - OMR App</title>
     <style>
-        body{
-            font-family: Arial, sans-serif;
-            max-width:800px;
-            margin:auto;
-            padding:20px;
-            line-height:1.6;
-            color:#333;
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #d32f2f;
+            text-align: center;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 18px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+
+        .note {
+            margin-top: 25px;
+            padding: 15px;
+            background: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
         }
     </style>
 </head>
 <body>
 
-<h1>Request Account Deletion</h1>
+<div class="container">
+    <h1>Delete Your OMR Account</h1>
 
-<p>
-If you would like to permanently delete your account and associated data,
-please follow the steps below.
-</p>
+    <p>
+        To permanently delete your user data from the <strong>OMR</strong> app,
+        follow the steps below:
+    </p>
 
-<h2>How to request deletion</h2>
+    <ol>
+        <li>
+            Open the <strong>OMR</strong> application and ensure you are logged in.
+        </li>
 
-<ol>
-    <li>Open the app.</li>
-    <li>Go to <strong>Settings → Account → Delete Account</strong>.</li>
-    <li>Confirm your request.</li>
-</ol>
+        <li>
+            Navigate to the <strong>Settings</strong> screen.
+        </li>
 
-<p>
-If you cannot access the app, you may also contact us at:
-</p>
+        <li>
+            Scroll down and tap the <strong>Delete Account</strong> option.
+        </li>
 
-<p>
-<strong>support@example.com</strong>
-</p>
+        <li>
+            A confirmation dialog will appear with a warning message.
+            <div class="warning">
+                <strong>Warning:</strong><br>
+                Deleting your account is permanent and cannot be undone. All associated
+                user data will be permanently removed.
+            </div>
+        </li>
 
-<h2>What data is deleted</h2>
+        <li>
+            Tap <strong>Confirm</strong> or <strong>Delete</strong> to permanently
+            delete your account and user data.
+        </li>
+    </ol>
 
-<ul>
-    <li>Your account profile</li>
-    <li>Your login credentials</li>
-    <li>Any user-generated content stored on our servers</li>
-</ul>
-
-<h2>Data we may retain</h2>
-
-<p>
-Certain information may be retained for legal, security, fraud prevention,
-or regulatory compliance purposes for up to 30 days after your deletion
-request.
-</p>
-
-<h2>Processing time</h2>
-
-<p>
-Deletion requests are normally completed within 30 days.
-</p>
+    <div class="note">
+        <strong>Note:</strong> Once your account has been deleted, it cannot be recovered.
+    </div>
+</div>
 
 </body>
 </html>
